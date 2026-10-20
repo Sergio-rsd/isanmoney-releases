@@ -1,5 +1,7 @@
 # isAnMoney
 
+**English** · [Русский](README.ru.md)
+
 Personal finance tracker for Android — a modern remake of the abandoned **anMoney**.
 Offline, no ads, no analytics, no accounts. Your data never leaves your phone.
 

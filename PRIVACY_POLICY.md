@@ -1,6 +1,6 @@
 # isAnMoney privacy policy
 
-Effective October 5, 2026.
+Effective October 21, 2026.
 
 ## What data the app stores
 
@@ -16,11 +16,7 @@ Backups (.isanmoney) and CSV exports are created by you and saved wherever you c
 
 ## Android cloud backup
 
-It is turned off for the database. The system may save only a tiny file with the trial start date, so that reinstalling does not restart the trial.
-
-## Purchase
-
-Payment is handled by the app store under its own rules. The app receives no payment details, only whether it has been purchased.
+It is turned off for the database. The system may save only one tiny service file that contains no accounts, transactions or other financial data.
 
 ## Permissions
 
