@@ -1,39 +1,39 @@
-# Политика конфиденциальности приложения isAnMoney
+# isAnMoney privacy policy
 
-Действует с 5 октября 2026 года.
+Effective October 5, 2026.
 
-## Какие данные хранит приложение
+## What data the app stores
 
-Счета, операции, категории, получатели, курсы валют и другие записи, которые вы вводите сами. Всё это лежит только на вашем устройстве, в зашифрованной базе данных; ключ шифрования хранится в защищённом хранилище Android (Keystore) и не покидает телефон.
+Accounts, transactions, categories, payees, exchange rates and other records that you enter yourself. All of it stays on your device only, in an encrypted database; the encryption key is kept in Android’s protected storage (Keystore) and never leaves the phone.
 
-## Что мы не делаем
+## What we do not do
 
-Приложение не передаёт ваши данные разработчику или третьим лицам. У него нет доступа в интернет, в нём нет рекламы и аналитики. Если приложение неожиданно закроется, оно предложит отправить отчёт о сбое, и только с вашего согласия: в отчёте версия приложения, модель телефона и техническая запись ошибки, без ваших счетов, сумм и получателей. Вы видите текст до отправки и сами выбираете, куда его отправить. Отчёт о проблеме можно отправить и вручную: «Настройки → Сообщить о проблеме».
+The app does not send your data to the developer or to third parties. It has no internet access and contains no ads or analytics. If the app closes unexpectedly, it will offer to send a crash report, and only with your consent: the report contains the app version, the phone model and a technical error record, without your accounts, amounts or payees. You see the text before it is sent and choose where to send it. You can also send a problem report manually: “Settings → Report a problem”.
 
-## Резервные копии и экспорт
+## Backups and export
 
-Копии (.isanmoney) и выгрузки CSV создаёте вы сами и сохраняете туда, куда выберете. Копия защищена вашим паролем: забытый пароль восстановить нельзя. Файл CSV не зашифрован — обращайтесь с ним осторожно. Разработчик этих файлов не видит.
+Backups (.isanmoney) and CSV exports are created by you and saved wherever you choose. A backup is protected by your password: a forgotten password cannot be recovered. A CSV file is not encrypted, so handle it with care. The developer never sees these files.
 
-## Облачное резервное копирование Android
+## Android cloud backup
 
-Для базы данных оно отключено. Системе разрешено сохранять только маленький файл с датой начала пробного периода, чтобы переустановка не запускала его заново.
+It is turned off for the database. The system may save only a tiny file with the trial start date, so that reinstalling does not restart the trial.
 
-## Покупка
+## Purchase
 
-Оплату принимает магазин приложений по своим правилам. Платёжные данные приложение не получает — только сведение о том, куплено ли оно.
+Payment is handled by the app store under its own rules. The app receives no payment details, only whether it has been purchased.
 
-## Разрешения
+## Permissions
 
-Уведомления — чтобы сообщить, если не удалась автоматическая резервная копия. Биометрия — по вашему желанию, для входа вместо PIN-кода; отпечаток или лицо обрабатывает система, приложение их не получает.
+Notifications, to tell you if an automatic backup fails. Biometrics, optionally, to sign in instead of the PIN; the system processes your fingerprint or face and the app never receives it.
 
-## PIN-код
+## PIN
 
-Хранится на устройстве только в виде хэша. PIN — замок на экране приложения, а не шифрование данных.
+Stored on the device only as a hash. The PIN is a lock on the app screen, not data encryption.
 
-## Удаление данных
+## Deleting your data
 
-Удаление приложения или очистка его данных стирает всё, что хранится в нём. Копии и выгрузки, которые вы сохранили сами, остаются там, где вы их сохранили, — удаляйте их самостоятельно.
+Uninstalling the app or clearing its data erases everything stored in it. Backups and exports that you saved yourself stay where you saved them; delete them yourself.
 
-## Изменения и связь
+## Changes and contact
 
-При изменении политики новая версия появится в приложении и на странице магазина. Вопросы и отчёты о проблемах — на itartel2075@gmail.com.
+If the policy changes, the new version will appear in the app and on the store page. Questions and problem reports: itartel2075@gmail.com.

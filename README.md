@@ -58,7 +58,7 @@ Import into an empty book: importing the same files twice duplicates transaction
 - Backups (`.isanmoney`) are protected by your own password. **A forgotten password cannot be recovered.**
 - The PIN is a screen lock, not encryption of your data.
 
-Full text: [PRIVACY_POLICY.md](PRIVACY_POLICY.md) (Russian).
+Full text: [PRIVACY_POLICY.md](PRIVACY_POLICY.md) (English), [PRIVACY_POLICY.ru.md](PRIVACY_POLICY.ru.md) (Russian).
 
 ## Feedback and bug reports
 
