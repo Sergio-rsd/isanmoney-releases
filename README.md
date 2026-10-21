@@ -19,6 +19,13 @@ Offline, no ads, no analytics, no accounts. Your data never leaves your phone.
 - Import and export: CSV, QIF; password-protected `.isanmoney` backups (manual or scheduled)
 - Quick Entry home-screen widget, optional PIN lock, English and Russian interface
 
+## Screenshots
+
+<table>
+<tr><td align="center"><img src="screenshots/en/1-accounts.jpg" width="230" alt="Accounts"><br>Accounts</td><td align="center"><img src="screenshots/en/2-register.jpg" width="230" alt="Account register"><br>Account register</td><td align="center"><img src="screenshots/en/3-transaction.jpg" width="230" alt="New transaction"><br>New transaction</td></tr>
+<tr><td align="center"><img src="screenshots/en/4-report-structure.jpg" width="230" alt="Spending by category"><br>Spending by category</td><td align="center"><img src="screenshots/en/5-report-over-time.jpg" width="230" alt="Income and expenses over time"><br>Income and expenses over time</td><td align="center"><img src="screenshots/en/6-budget.jpg" width="230" alt="Budget"><br>Budget</td></tr>
+</table>
+
 ## Install
 
 1. Download the latest `.apk` from the [Releases](../../releases) page on your phone.

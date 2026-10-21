@@ -19,6 +19,13 @@
 - Импорт и экспорт: CSV, QIF; резервные копии `.isanmoney` под вашим паролем (вручную или по расписанию)
 - Виджет быстрого ввода, необязательный PIN-код, интерфейс на английском и русском
 
+## Скриншоты
+
+<table>
+<tr><td align="center"><img src="screenshots/ru/1-accounts.jpg" width="230" alt="Счета"><br>Счета</td><td align="center"><img src="screenshots/ru/2-register.jpg" width="230" alt="Журнал счёта"><br>Журнал счёта</td><td align="center"><img src="screenshots/ru/3-transaction.jpg" width="230" alt="Новая операция"><br>Новая операция</td></tr>
+<tr><td align="center"><img src="screenshots/ru/4-report-structure.jpg" width="230" alt="Расходы по категориям"><br>Расходы по категориям</td><td align="center"><img src="screenshots/ru/5-report-over-time.jpg" width="230" alt="Доходы и расходы по времени"><br>Доходы и расходы по времени</td><td align="center"><img src="screenshots/ru/6-budget.jpg" width="230" alt="Бюджет"><br>Бюджет</td></tr>
+</table>
+
 ## Установка
 
 1. Скачайте последний `.apk` на странице [Releases](../../releases) прямо на телефоне.
