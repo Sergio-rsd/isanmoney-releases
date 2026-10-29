@@ -24,6 +24,7 @@ Offline, no ads, no analytics, no accounts. Your data never leaves your phone.
 <table>
 <tr><td align="center"><img src="screenshots/en/1-accounts.jpg" width="230" alt="Accounts"><br>Accounts</td><td align="center"><img src="screenshots/en/2-register.jpg" width="230" alt="Account register"><br>Account register</td><td align="center"><img src="screenshots/en/3-transaction.jpg" width="230" alt="New transaction"><br>New transaction</td></tr>
 <tr><td align="center"><img src="screenshots/en/4-report-structure.jpg" width="230" alt="Spending by category"><br>Spending by category</td><td align="center"><img src="screenshots/en/5-report-over-time.jpg" width="230" alt="Income and expenses over time"><br>Income and expenses over time</td><td align="center"><img src="screenshots/en/6-budget.jpg" width="230" alt="Budget"><br>Budget</td></tr>
+<tr><td align="center"><img src="screenshots/en/7-scheduled.jpg" width="230" alt="Scheduled transactions"><br>Scheduled transactions</td><td align="center"><img src="screenshots/en/8-scheduled-form.jpg" width="230" alt="Scheduled transaction"><br>Scheduled transaction</td><td align="center"><img src="screenshots/en/9-recurrence.jpg" width="230" alt="Repeat settings"><br>Repeat settings</td></tr>
 </table>
 
 ## Install
