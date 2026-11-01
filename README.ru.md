@@ -25,6 +25,7 @@
 <tr><td align="center"><img src="screenshots/ru/1-accounts.jpg" width="230" alt="Счета"><br>Счета</td><td align="center"><img src="screenshots/ru/2-register.jpg" width="230" alt="Журнал счёта"><br>Журнал счёта</td><td align="center"><img src="screenshots/ru/3-transaction.jpg" width="230" alt="Новая операция"><br>Новая операция</td></tr>
 <tr><td align="center"><img src="screenshots/ru/4-report-structure.jpg" width="230" alt="Расходы по категориям"><br>Расходы по категориям</td><td align="center"><img src="screenshots/ru/5-report-over-time.jpg" width="230" alt="Доходы и расходы по времени"><br>Доходы и расходы по времени</td><td align="center"><img src="screenshots/ru/6-budget.jpg" width="230" alt="Бюджет"><br>Бюджет</td></tr>
 <tr><td align="center"><img src="screenshots/ru/7-scheduled.jpg" width="230" alt="Запланированные"><br>Запланированные</td><td align="center"><img src="screenshots/ru/8-scheduled-form.jpg" width="230" alt="Запланированная операция"><br>Запланированная операция</td><td align="center"><img src="screenshots/ru/9-recurrence.jpg" width="230" alt="Параметры повтора"><br>Параметры повтора</td></tr>
+<tr><td align="center"><img src="screenshots/ru/5b-report-balance.jpg" width="230" alt="Баланс"><br>Баланс</td><td align="center"><img src="screenshots/ru/10-report-table.jpg" width="230" alt="Категории по месяцам"><br>Категории по месяцам</td><td align="center"><img src="screenshots/ru/11-report-entries.jpg" width="230" alt="Операции строки отчёта"><br>Операции строки отчёта</td></tr>
 </table>
 
 ## Установка
