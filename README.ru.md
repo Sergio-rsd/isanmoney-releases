@@ -12,20 +12,23 @@
 
 - Счета девяти типов (банковский, наличные, кредитная карта, кредитная линия, инвестиционный, другое обязательство, недвижимость, транспорт, другой актив), у каждого своя валюта
 - Доходы, расходы и переводы (в том числе между валютами), разбиение операции на части, две необязательные классификации (участники / проекты)
-- Категории в два уровня, получатели с автодополнением, бюджет за любой период
-- Отчёты: структура расходов, доходы и расходы по времени, баланс по времени, категории по месяцам
+- Категории в два уровня, получатели с автодополнением, поиск по операциям
+- **Бюджет**: лимиты по категориям, участникам, проектам и получателям; лимиты меняются по датам, старые не пропадают (архив); плановые доходы; **бюджет события (проекта) по категориям**
+- **Запланированные операции**: повторы по расписанию, вводятся той же формой, что и обычные операции
+- Отчёты: структура расходов, доходы и расходы по времени, баланс по времени, таблица по времени, **«План и факт»** (нарастающий факт против плана, доходы и расходы вместе), строки можно упорядочить по названию («А→Я»)
+- **Свои отчёты**: конструктор с разрезом по справочнику; выгрузка отчётов в Excel и CSV
 - Мультивалютность: курсы вводятся вручную, есть история курсов
-- **Перенос истории из anMoney** через импорт QIF и экран сверки, чтобы остатки совпали
+- **Перенос истории из anMoney** через импорт QIF и экран сверки, чтобы остатки совпали (части split, бывшие переводом на другой счёт, становятся отдельными переводами)
 - Импорт и экспорт: CSV, QIF; резервные копии `.isanmoney` под вашим паролем (вручную или по расписанию)
-- Виджет быстрого ввода, необязательный PIN-код, интерфейс на английском и русском
+- Форма операции с кнопками внизу, под большим пальцем; виджет быстрого ввода, необязательный PIN-код, интерфейс на английском и русском
 
 ## Скриншоты
 
 <table>
-<tr><td align="center"><img src="screenshots/ru/1-accounts.jpg" width="230" alt="Счета"><br>Счета</td><td align="center"><img src="screenshots/ru/2-register.jpg" width="230" alt="Журнал счёта"><br>Журнал счёта</td><td align="center"><img src="screenshots/ru/3-transaction.jpg" width="230" alt="Новая операция"><br>Новая операция</td></tr>
-<tr><td align="center"><img src="screenshots/ru/4-report-structure.jpg" width="230" alt="Расходы по категориям"><br>Расходы по категориям</td><td align="center"><img src="screenshots/ru/5-report-over-time.jpg" width="230" alt="Доходы и расходы по времени"><br>Доходы и расходы по времени</td><td align="center"><img src="screenshots/ru/6-budget.jpg" width="230" alt="Бюджет"><br>Бюджет</td></tr>
-<tr><td align="center"><img src="screenshots/ru/7-scheduled.jpg" width="230" alt="Запланированные"><br>Запланированные</td><td align="center"><img src="screenshots/ru/8-scheduled-form.jpg" width="230" alt="Запланированная операция"><br>Запланированная операция</td><td align="center"><img src="screenshots/ru/9-recurrence.jpg" width="230" alt="Параметры повтора"><br>Параметры повтора</td></tr>
-<tr><td align="center"><img src="screenshots/ru/5b-report-balance.jpg" width="230" alt="Баланс"><br>Баланс</td><td align="center"><img src="screenshots/ru/10-report-table.jpg" width="230" alt="Категории по месяцам"><br>Категории по месяцам</td><td align="center"><img src="screenshots/ru/11-report-entries.jpg" width="230" alt="Операции строки отчёта"><br>Операции строки отчёта</td></tr>
+<tr><td align="center"><img src="screenshots/ru/01_accounts.jpg" width="230" alt="Счета"><br>Счета</td><td align="center"><img src="screenshots/ru/02_journal.jpg" width="230" alt="Журнал счёта"><br>Журнал счёта</td><td align="center"><img src="screenshots/ru/03_form.jpg" width="230" alt="Новая операция"><br>Новая операция</td></tr>
+<tr><td align="center"><img src="screenshots/ru/04_structure.jpg" width="230" alt="Расходы по категориям"><br>Расходы по категориям</td><td align="center"><img src="screenshots/ru/05_table.jpg" width="230" alt="Категории по месяцам"><br>Категории по месяцам</td><td align="center"><img src="screenshots/ru/06_budget.jpg" width="230" alt="Бюджет"><br>Бюджет</td></tr>
+<tr><td align="center"><img src="screenshots/ru/07_project_budget.jpg" width="230" alt="Бюджет проекта по категориям"><br>Бюджет проекта по категориям</td><td align="center"><img src="screenshots/ru/08_planfact.jpg" width="230" alt="План и факт"><br>План и факт</td><td align="center"><img src="screenshots/ru/09_scheduled.jpg" width="230" alt="Запланированные"><br>Запланированные</td></tr>
+<tr><td align="center"><img src="screenshots/ru/10_scheduled_form.jpg" width="230" alt="Запланированная операция"><br>Запланированная операция</td><td align="center"><img src="screenshots/ru/11_balance.jpg" width="230" alt="Баланс"><br>Баланс</td><td align="center"><img src="screenshots/ru/12_entries.jpg" width="230" alt="Операции строки отчёта"><br>Операции строки отчёта</td></tr>
 </table>
 
 ## Установка

@@ -12,20 +12,23 @@ Offline, no ads, no analytics, no accounts. Your data never leaves your phone.
 
 - Accounts of nine types (bank, cash, credit card, credit line, investment, other liability, real estate, vehicle, other asset), each in its own currency
 - Income, expenses and transfers (including transfers between currencies), split transactions, two optional classifications (people / projects)
-- Two-level categories, payees with autocomplete, budgets for any period
-- Reports: spending structure, income/expense over time, balance over time, categories by month
+- Two-level categories, payees with autocomplete, search across transactions
+- **Budgets**: limits by category, person, project and payee; limits change by date and the old ones are kept (archive); planned income; **an event (project) budget by category**
+- **Scheduled transactions**: recurring items entered with the same form as ordinary transactions
+- Reports: spending structure, income/expense over time, balance over time, table over time, **“Plan vs actual”** (running actual against the plan, income and expense together); rows can be ordered by name (“A→Z”)
+- **Your own reports**: a builder grouped by a list; export of reports to Excel and CSV
 - Multi-currency with manual exchange rates and rate history
-- **Moves your anMoney history over** via QIF import, with a reconciliation screen so balances match
+- **Moves your anMoney history over** via QIF import, with a reconciliation screen so balances match (split parts that were a transfer to another account become separate transfers)
 - Import and export: CSV, QIF; password-protected `.isanmoney` backups (manual or scheduled)
-- Quick Entry home-screen widget, optional PIN lock, English and Russian interface
+- A transaction form with buttons at the bottom, within thumb reach; Quick Entry home-screen widget, optional PIN lock, English and Russian interface
 
 ## Screenshots
 
 <table>
-<tr><td align="center"><img src="screenshots/en/1-accounts.jpg" width="230" alt="Accounts"><br>Accounts</td><td align="center"><img src="screenshots/en/2-register.jpg" width="230" alt="Account register"><br>Account register</td><td align="center"><img src="screenshots/en/3-transaction.jpg" width="230" alt="New transaction"><br>New transaction</td></tr>
-<tr><td align="center"><img src="screenshots/en/4-report-structure.jpg" width="230" alt="Spending by category"><br>Spending by category</td><td align="center"><img src="screenshots/en/5-report-over-time.jpg" width="230" alt="Income and expenses over time"><br>Income and expenses over time</td><td align="center"><img src="screenshots/en/6-budget.jpg" width="230" alt="Budget"><br>Budget</td></tr>
-<tr><td align="center"><img src="screenshots/en/7-scheduled.jpg" width="230" alt="Scheduled transactions"><br>Scheduled transactions</td><td align="center"><img src="screenshots/en/8-scheduled-form.jpg" width="230" alt="Scheduled transaction"><br>Scheduled transaction</td><td align="center"><img src="screenshots/en/9-recurrence.jpg" width="230" alt="Repeat settings"><br>Repeat settings</td></tr>
-<tr><td align="center"><img src="screenshots/en/5b-report-balance.jpg" width="230" alt="Balance"><br>Balance</td><td align="center"><img src="screenshots/en/10-report-table.jpg" width="230" alt="Categories by month"><br>Categories by month</td><td align="center"><img src="screenshots/en/11-report-entries.jpg" width="230" alt="Transactions behind a report row"><br>Transactions behind a report row</td></tr>
+<tr><td align="center"><img src="screenshots/en/01_accounts.jpg" width="230" alt="Accounts"><br>Accounts</td><td align="center"><img src="screenshots/en/02_journal.jpg" width="230" alt="Account register"><br>Account register</td><td align="center"><img src="screenshots/en/03_form.jpg" width="230" alt="New transaction"><br>New transaction</td></tr>
+<tr><td align="center"><img src="screenshots/en/04_structure.jpg" width="230" alt="Spending by category"><br>Spending by category</td><td align="center"><img src="screenshots/en/05_table.jpg" width="230" alt="Categories by month"><br>Categories by month</td><td align="center"><img src="screenshots/en/06_budget.jpg" width="230" alt="Budget"><br>Budget</td></tr>
+<tr><td align="center"><img src="screenshots/en/07_project_budget.jpg" width="230" alt="Project budget by category"><br>Project budget by category</td><td align="center"><img src="screenshots/en/08_planfact.jpg" width="230" alt="Plan vs actual"><br>Plan vs actual</td><td align="center"><img src="screenshots/en/09_scheduled.jpg" width="230" alt="Scheduled transactions"><br>Scheduled transactions</td></tr>
+<tr><td align="center"><img src="screenshots/en/10_scheduled_form.jpg" width="230" alt="Scheduled transaction"><br>Scheduled transaction</td><td align="center"><img src="screenshots/en/11_balance.jpg" width="230" alt="Balance"><br>Balance</td><td align="center"><img src="screenshots/en/12_entries.jpg" width="230" alt="Transactions behind a report row"><br>Transactions behind a report row</td></tr>
 </table>
 
 ## Install
