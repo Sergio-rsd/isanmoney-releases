@@ -11,25 +11,29 @@ Offline, no ads, no analytics, no accounts. Your data never leaves your phone.
 ## Features
 
 - Accounts of nine types (bank, cash, credit card, credit line, investment, other liability, real estate, vehicle, other asset), each in its own currency
-- Income, expenses and transfers (including transfers between currencies), split transactions, two optional classifications (people / projects)
-- Two-level categories, payees with autocomplete, search across transactions
+- Income, expenses and transfers (including transfers between currencies, a **Payment / Deposit** direction and duplicating a transfer), split transactions, two optional classifications (people / projects)
+- **Transaction statuses**, as in anMoney: Cleared, Reconciled, Void (a void one is left out of balances). Mark from the transaction menu or the status button in the form; filter an account register or search all accounts by status
+- Two-level categories, payees with autocomplete, search across transactions; order of transactions within a day (**Move up / down**)
 - **Budgets**: limits by category, person, project and payee; limits change by date and the old ones are kept (archive); planned income; **an event (project) budget by category**
-- **Scheduled transactions**: recurring items entered with the same form as ordinary transactions
+- **Scheduled transactions**: recurring items entered with the same form as ordinary transactions; overdue ones can be entered or skipped one by one
 - Reports: spending structure, income/expense over time, balance over time, table over time, **“Plan vs actual”** (running actual against the plan, income and expense together); rows can be ordered by name (“A→Z”)
 - **Your own reports**: a builder grouped by a list; export of reports to Excel and CSV
 - Multi-currency with manual exchange rates and rate history
 - **Moves your anMoney history over** via QIF import, with a reconciliation screen so balances match (split parts that were a transfer to another account become separate transfers)
 - Import and export: CSV, QIF; password-protected `.isanmoney` backups (manual or scheduled)
-- A transaction form with buttons at the bottom, within thumb reach; Quick Entry home-screen widget, optional PIN lock, English and Russian interface
+- A transaction form with buttons at the bottom, within thumb reach; Quick Entry home-screen widget, optional PIN lock, fast-scroll bars on long lists, English and Russian interface
 
 ## Screenshots
 
 <table>
-<tr><td align="center"><img src="screenshots/en/01_accounts.jpg" width="230" alt="Accounts"><br>Accounts</td><td align="center"><img src="screenshots/en/02_journal.jpg" width="230" alt="Account register"><br>Account register</td><td align="center"><img src="screenshots/en/03_form.jpg" width="230" alt="New transaction"><br>New transaction</td></tr>
-<tr><td align="center"><img src="screenshots/en/04_structure.jpg" width="230" alt="Spending by category"><br>Spending by category</td><td align="center"><img src="screenshots/en/05_table.jpg" width="230" alt="Categories by month"><br>Categories by month</td><td align="center"><img src="screenshots/en/06_budget.jpg" width="230" alt="Budget"><br>Budget</td></tr>
-<tr><td align="center"><img src="screenshots/en/07_project_budget.jpg" width="230" alt="Project budget by category"><br>Project budget by category</td><td align="center"><img src="screenshots/en/08_planfact.jpg" width="230" alt="Plan vs actual"><br>Plan vs actual</td><td align="center"><img src="screenshots/en/09_scheduled.jpg" width="230" alt="Scheduled transactions"><br>Scheduled transactions</td></tr>
-<tr><td align="center"><img src="screenshots/en/10_scheduled_form.jpg" width="230" alt="Scheduled transaction"><br>Scheduled transaction</td><td align="center"><img src="screenshots/en/11_balance.jpg" width="230" alt="Balance"><br>Balance</td><td align="center"><img src="screenshots/en/12_entries.jpg" width="230" alt="Transactions behind a report row"><br>Transactions behind a report row</td></tr>
-<tr><td align="center"><img src="screenshots/en/13_income_expense.jpg" width="230" alt="Income and expenses over time"><br>Income and expenses over time</td><td align="center"><img src="screenshots/en/14_budget_all.jpg" width="230" alt="Budget: all at once"><br>Budget: all at once</td><td align="center"><img src="screenshots/en/15_multiselect.jpg" width="230" alt="Select several transactions"><br>Select several transactions</td></tr>
+<tr><td align="center"><img src="screenshots/en/01_accounts.jpg" width="230" alt="Accounts"><br>Accounts</td><td align="center"><img src="screenshots/en/02_journal.jpg" width="230" alt="Account register with statuses"><br>Account register with statuses</td><td align="center"><img src="screenshots/en/02a_journal_void.jpg" width="230" alt="A void transaction"><br>A void transaction</td></tr>
+<tr><td align="center"><img src="screenshots/en/03_menu.jpg" width="230" alt="Transfer menu: duplicate, move up / down"><br>Transfer menu: duplicate, move up / down</td><td align="center"><img src="screenshots/en/04_mark.jpg" width="230" alt="Mark a transaction: Cleared, Reconciled, Void"><br>Mark a transaction: Cleared, Reconciled, Void</td><td align="center"><img src="screenshots/en/05_journal_search.jpg" width="230" alt="Filter the register by status"><br>Filter the register by status</td></tr>
+<tr><td align="center"><img src="screenshots/en/06_form.jpg" width="230" alt="New transaction"><br>New transaction</td><td align="center"><img src="screenshots/en/07_form_transfer.jpg" width="230" alt="Transfer: Payment / Deposit"><br>Transfer: Payment / Deposit</td><td align="center"><img src="screenshots/en/14_form_buttons.jpg" width="230" alt="Form buttons: where the status button goes"><br>Form buttons: where the status button goes</td></tr>
+<tr><td align="center"><img src="screenshots/en/09_search_status.jpg" width="230" alt="Search all accounts by status"><br>Search all accounts by status</td><td align="center"><img src="screenshots/en/10_scheduled.jpg" width="230" alt="Scheduled: enter or skip an overdue one"><br>Scheduled: enter or skip an overdue one</td><td align="center"><img src="screenshots/en/21_scheduled_form.jpg" width="230" alt="Scheduled transaction"><br>Scheduled transaction</td></tr>
+<tr><td align="center"><img src="screenshots/en/11_report_income_expense.jpg" width="230" alt="Income and expenses over time"><br>Income and expenses over time</td><td align="center"><img src="screenshots/en/12_report_structure.jpg" width="230" alt="Spending by category"><br>Spending by category</td><td align="center"><img src="screenshots/en/17_report_table.jpg" width="230" alt="Categories by month"><br>Categories by month</td></tr>
+<tr><td align="center"><img src="screenshots/en/22_report_balance.jpg" width="230" alt="Balance and forecast"><br>Balance and forecast</td><td align="center"><img src="screenshots/en/23_report_entries.jpg" width="230" alt="Transactions behind a report row"><br>Transactions behind a report row</td><td align="center"><img src="screenshots/en/20_planfact.jpg" width="230" alt="Plan vs actual"><br>Plan vs actual</td></tr>
+<tr><td align="center"><img src="screenshots/en/18_budget.jpg" width="230" alt="Budget"><br>Budget</td><td align="center"><img src="screenshots/en/13_budget_all.jpg" width="230" alt="Budget: all at once"><br>Budget: all at once</td><td align="center"><img src="screenshots/en/19_project_budget.jpg" width="230" alt="Project budget"><br>Project budget</td></tr>
+<tr><td align="center"><img src="screenshots/en/24_multiselect.jpg" width="230" alt="Select several transactions"><br>Select several transactions</td><td align="center"><img src="screenshots/en/15_import_export.jpg" width="230" alt="Import/Export"><br>Import/Export</td><td align="center"><img src="screenshots/en/16_import_labels.jpg" width="230" alt="QIF import: where do the labels go"><br>QIF import: where do the labels go</td></tr>
 </table>
 
 ## Install
@@ -61,7 +65,9 @@ ED:64:EC:15:CE:38:44:A2:A2:22:63:19:2B:3D:32:D2:53:1D:00:33:C4:76:A2:12:4C:A0:BA
 
 1. In anMoney, export all accounts to QIF. Choose the status **All transactions** — otherwise "Unexported" ones are skipped.
 2. Copy the files to your phone.
-3. In isAnMoney: menu → **Import/Export → Moving from anMoney**, then follow the steps (check each account's currency and type, then reconcile balances and set today's exchange rates).
+3. In isAnMoney: menu → **Import/Export → Moving from anMoney**, then follow the steps (check each account's currency and type, choose where the labels go, then reconcile balances and set today's exchange rates).
+
+If the file has labels (projects or family members), the import screen asks which list they go into: **People** or **Projects**. In anMoney this is a single field, so choose carefully.
 
 Import into an empty book: importing the same files twice duplicates transactions.
 

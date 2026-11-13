@@ -11,25 +11,29 @@
 ## Возможности
 
 - Счета девяти типов (банковский, наличные, кредитная карта, кредитная линия, инвестиционный, другое обязательство, недвижимость, транспорт, другой актив), у каждого своя валюта
-- Доходы, расходы и переводы (в том числе между валютами), разбиение операции на части, две необязательные классификации (участники / проекты)
-- Категории в два уровня, получатели с автодополнением, поиск по операциям
+- Доходы, расходы и переводы (в том числе между валютами, с направлением **«Платёж / Пополнение»** и дублированием перевода), разбиение операции на части, две необязательные классификации (участники / проекты)
+- **Статусы операций**, как в anMoney: «Чистая», «Согласованная», «Недействительна» (недействительная не входит в баланс). Отмечаются в меню операции или кнопкой статуса в форме; журнал счёта можно отобрать, а все счета искать по статусу
+- Категории в два уровня, получатели с автодополнением, поиск по операциям; порядок операций внутри дня (**«Сдвинуть вверх / вниз»**)
 - **Бюджет**: лимиты по категориям, участникам, проектам и получателям; лимиты меняются по датам, старые не пропадают (архив); плановые доходы; **бюджет события (проекта) по категориям**
-- **Запланированные операции**: повторы по расписанию, вводятся той же формой, что и обычные операции
+- **Запланированные операции**: повторы по расписанию, вводятся той же формой, что и обычные операции; просроченные можно ввести или пропустить по одной
 - Отчёты: структура расходов, доходы и расходы по времени, баланс по времени, таблица по времени, **«План и факт»** (нарастающий факт против плана, доходы и расходы вместе), строки можно упорядочить по названию («А→Я»)
 - **Свои отчёты**: конструктор с разрезом по справочнику; выгрузка отчётов в Excel и CSV
 - Мультивалютность: курсы вводятся вручную, есть история курсов
 - **Перенос истории из anMoney** через импорт QIF и экран сверки, чтобы остатки совпали (части split, бывшие переводом на другой счёт, становятся отдельными переводами)
 - Импорт и экспорт: CSV, QIF; резервные копии `.isanmoney` под вашим паролем (вручную или по расписанию)
-- Форма операции с кнопками внизу, под большим пальцем; виджет быстрого ввода, необязательный PIN-код, интерфейс на английском и русском
+- Форма операции с кнопками внизу, под большим пальцем; виджет быстрого ввода, необязательный PIN-код, ползунки быстрой прокрутки в длинных списках, интерфейс на английском и русском
 
 ## Скриншоты
 
 <table>
-<tr><td align="center"><img src="screenshots/ru/01_accounts.jpg" width="230" alt="Счета"><br>Счета</td><td align="center"><img src="screenshots/ru/02_journal.jpg" width="230" alt="Журнал счёта"><br>Журнал счёта</td><td align="center"><img src="screenshots/ru/03_form.jpg" width="230" alt="Новая операция"><br>Новая операция</td></tr>
-<tr><td align="center"><img src="screenshots/ru/04_structure.jpg" width="230" alt="Расходы по категориям"><br>Расходы по категориям</td><td align="center"><img src="screenshots/ru/05_table.jpg" width="230" alt="Категории по месяцам"><br>Категории по месяцам</td><td align="center"><img src="screenshots/ru/06_budget.jpg" width="230" alt="Бюджет"><br>Бюджет</td></tr>
-<tr><td align="center"><img src="screenshots/ru/07_project_budget.jpg" width="230" alt="Бюджет проекта по категориям"><br>Бюджет проекта по категориям</td><td align="center"><img src="screenshots/ru/08_planfact.jpg" width="230" alt="План и факт"><br>План и факт</td><td align="center"><img src="screenshots/ru/09_scheduled.jpg" width="230" alt="Запланированные"><br>Запланированные</td></tr>
-<tr><td align="center"><img src="screenshots/ru/10_scheduled_form.jpg" width="230" alt="Запланированная операция"><br>Запланированная операция</td><td align="center"><img src="screenshots/ru/11_balance.jpg" width="230" alt="Баланс"><br>Баланс</td><td align="center"><img src="screenshots/ru/12_entries.jpg" width="230" alt="Операции строки отчёта"><br>Операции строки отчёта</td></tr>
-<tr><td align="center"><img src="screenshots/ru/13_income_expense.jpg" width="230" alt="Доходы и расходы по времени"><br>Доходы и расходы по времени</td><td align="center"><img src="screenshots/ru/14_budget_all.jpg" width="230" alt="Бюджет: всё вместе"><br>Бюджет: всё вместе</td><td align="center"><img src="screenshots/ru/15_multiselect.jpg" width="230" alt="Выбор нескольких операций"><br>Выбор нескольких операций</td></tr>
+<tr><td align="center"><img src="screenshots/ru/01_accounts.jpg" width="230" alt="Счета"><br>Счета</td><td align="center"><img src="screenshots/ru/02_journal.jpg" width="230" alt="Журнал счёта со статусами"><br>Журнал счёта со статусами</td><td align="center"><img src="screenshots/ru/02a_journal_void.jpg" width="230" alt="Недействительная операция"><br>Недействительная операция</td></tr>
+<tr><td align="center"><img src="screenshots/ru/03_menu.jpg" width="230" alt="Меню перевода: дублировать, сдвинуть вверх / вниз"><br>Меню перевода: дублировать, сдвинуть вверх / вниз</td><td align="center"><img src="screenshots/ru/04_mark.jpg" width="230" alt="Пометка операции: Чистая, Согласованная, Недействительна"><br>Пометка операции: Чистая, Согласованная, Недействительна</td><td align="center"><img src="screenshots/ru/05_journal_search.jpg" width="230" alt="Отбор журнала по статусу"><br>Отбор журнала по статусу</td></tr>
+<tr><td align="center"><img src="screenshots/ru/06_form.jpg" width="230" alt="Новая операция"><br>Новая операция</td><td align="center"><img src="screenshots/ru/07_form_transfer.jpg" width="230" alt="Перевод: Платёж / Пополнение"><br>Перевод: Платёж / Пополнение</td><td align="center"><img src="screenshots/ru/14_form_buttons.jpg" width="230" alt="Кнопки формы: где стоит кнопка статуса"><br>Кнопки формы: где стоит кнопка статуса</td></tr>
+<tr><td align="center"><img src="screenshots/ru/09_search_status.jpg" width="230" alt="Поиск по всем счетам по статусу"><br>Поиск по всем счетам по статусу</td><td align="center"><img src="screenshots/ru/10_scheduled.jpg" width="230" alt="Запланированные: ввести или пропустить просроченную"><br>Запланированные: ввести или пропустить просроченную</td><td align="center"><img src="screenshots/ru/21_scheduled_form.jpg" width="230" alt="Запланированная операция"><br>Запланированная операция</td></tr>
+<tr><td align="center"><img src="screenshots/ru/11_report_income_expense.jpg" width="230" alt="Доходы и расходы по времени"><br>Доходы и расходы по времени</td><td align="center"><img src="screenshots/ru/12_report_structure.jpg" width="230" alt="Расходы по категориям"><br>Расходы по категориям</td><td align="center"><img src="screenshots/ru/17_report_table.jpg" width="230" alt="Категории по месяцам"><br>Категории по месяцам</td></tr>
+<tr><td align="center"><img src="screenshots/ru/22_report_balance.jpg" width="230" alt="Баланс и прогноз"><br>Баланс и прогноз</td><td align="center"><img src="screenshots/ru/23_report_entries.jpg" width="230" alt="Операции строки отчёта"><br>Операции строки отчёта</td><td align="center"><img src="screenshots/ru/20_planfact.jpg" width="230" alt="План и факт"><br>План и факт</td></tr>
+<tr><td align="center"><img src="screenshots/ru/18_budget.jpg" width="230" alt="Бюджет"><br>Бюджет</td><td align="center"><img src="screenshots/ru/13_budget_all.jpg" width="230" alt="Бюджет: всё вместе"><br>Бюджет: всё вместе</td><td align="center"><img src="screenshots/ru/19_project_budget.jpg" width="230" alt="Бюджет проекта"><br>Бюджет проекта</td></tr>
+<tr><td align="center"><img src="screenshots/ru/24_multiselect.jpg" width="230" alt="Выбор нескольких операций"><br>Выбор нескольких операций</td><td align="center"><img src="screenshots/ru/15_import_export.jpg" width="230" alt="Импорт/Экспорт"><br>Импорт/Экспорт</td><td align="center"><img src="screenshots/ru/16_import_labels.jpg" width="230" alt="Импорт QIF: куда записать метки"><br>Импорт QIF: куда записать метки</td></tr>
 </table>
 
 ## Установка
@@ -61,7 +65,9 @@ ED:64:EC:15:CE:38:44:A2:A2:22:63:19:2B:3D:32:D2:53:1D:00:33:C4:76:A2:12:4C:A0:BA
 
 1. В anMoney выгрузите все счета в QIF со статусом **«Все транзакции»**, иначе «Невыгруженные» в файл не попадут.
 2. Перенесите файлы на телефон.
-3. В isAnMoney: меню → **Импорт/Экспорт → Перенос из anMoney**, дальше по шагам: проверьте валюту и тип каждого счёта, затем сверьте остатки и введите курсы валют на сегодня.
+3. В isAnMoney: меню → **Импорт/Экспорт → Перенос из anMoney**, дальше по шагам: проверьте валюту и тип каждого счёта, выберите, куда записать метки, затем сверьте остатки и введите курсы валют на сегодня.
+
+Если в файле у операций есть метки (проекты или члены семьи), экран импорта спросит, в какой справочник их записать: **«Участники»** или **«Проекты»**. В anMoney это одно поле, поэтому выбирайте внимательно.
 
 Импортируйте в чистую книгу: повторный импорт тех же файлов задвоит операции.
 
